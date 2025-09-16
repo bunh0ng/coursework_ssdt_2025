@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
+
 # Страница истории
 def history_page():
     st.title("📋 История оценок")
@@ -16,7 +18,7 @@ def history_page():
     # Показываем последние оценки
     st.subheader("Последние оценки")
     for i, row in enumerate(reversed(history_df.to_dict('records')[:5])):
-        with st.expander(f"{row['marka']} {row['model']} - {row['price']:,.0f} ₽"):
+        with st.expander(f"{row['mark']} {row['model']} - {row['price']:,.0f} ₽"):
             st.write(f"**Год:** {row['year']}")
             st.write(f"**Пробег:** {row['probeg']:,.0f} км")
             st.write(f"**Состояние:** {row['condition']}")

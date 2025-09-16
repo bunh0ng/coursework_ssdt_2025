@@ -1,5 +1,5 @@
 # Функции для оценки стоимости
-def estimate_price_basic(mark, model, year, probeg, engine_volume, condition):
+def estimate_price_basic(marka, model, year, probeg, engine_volume, condition):
     """Базовая модель оценки"""
     base_prices = {
         'Toyota': 1, 'BMW': 1, 'Mercedes': 1,
@@ -7,7 +7,7 @@ def estimate_price_basic(mark, model, year, probeg, engine_volume, condition):
         'Kia': 1, 'Hyundai': 1, 'default': 1
     }
     
-    base_price = base_prices.get(mark, base_prices['default'])
+    base_price = base_prices.get(marka, base_prices['default'])
     
     # Модификаторы
     year_mod = (year - 2000) * 15000

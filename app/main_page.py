@@ -1,7 +1,7 @@
+from app.estimate_model import estimate_price_basic
+from datetime import datetime
 import streamlit as st
-from estimate_price_basic import estimate_price_basic
-import datetime
-
+from next_page import next_page
 
 
 # Главная страница
@@ -13,13 +13,9 @@ def main_page():
     
     with col1:
         st.header("Данные автомобиля")
+        st.session_state.car_data['mark'] = st.selectbox("Марка автомобиля", open('marks_and_models/marks.txt', 'r', encoding='UTF-8').read().split('\n'))
         
-        st.session_state.car_data['marka'] = st.selectbox(
-            "Марка автомобиля",
-            ['Toyota', 'BMW', 'Mercedes', 'Audi', 'Volkswagen', 'Lada', 'Kia', 'Hyundai']
-        )
-        
-        st.session_state.car_data['model'] = st.text_input("Модель", "Camry")
+        st.session_state.car_data['model'] = st.selectbox("Модель", open(f'marks_and_models/{st.session_state.car_data['mark']}.txt', 'r', encoding='UTF-8').read().split('\n'))
         
         st.session_state.car_data['year'] = st.slider(
             "Год выпуска", 
