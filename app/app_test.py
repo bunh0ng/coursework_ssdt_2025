@@ -5,8 +5,8 @@ from app.main_page import main_page
 # Настройка страницы
 st.set_page_config(
     page_title="Анализатор",
-    page_icon="🚗",
     layout="wide",
+    page_icon="🤡",
     initial_sidebar_state="expanded"
 )
 
@@ -49,3 +49,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
