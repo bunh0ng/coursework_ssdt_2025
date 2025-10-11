@@ -1,13 +1,6 @@
-Bestune B30
-Bestune T77
-Bestune T99
-Bestune x40
-FAW J7
-FAW Jiefang
-FAW Myway
-FAW Oley
-FAW Senya
-FAW X80
-Hongqi H5
-Hongqi H9
-Hongqi HS5
+J7
+Jiefang
+Myway
+Oley
+Senya
+X80

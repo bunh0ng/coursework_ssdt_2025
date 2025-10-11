@@ -1,7 +1,7 @@
-Omoda 3
-Omoda 5
-Omoda 6
-Omoda 7
-Omoda C5
-Omoda E5
-Omoda X
+3
+5
+6
+7
+C5
+E5
+X

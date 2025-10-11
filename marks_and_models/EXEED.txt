@@ -1,7 +1,7 @@
-EXEED LX
-EXEED Mode
-EXEED Star Light
-EXEED TX
-EXEED TXL
-EXEED VX
-EXEED Yaoguang
+LX
+Mode
+Star Light
+TX
+TXL
+VX
+Yaoguang

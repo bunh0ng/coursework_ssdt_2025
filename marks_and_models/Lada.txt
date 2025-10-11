@@ -1,8 +1,11 @@
 Granta
 Kalina
-Lada 2107
-Lada 2109
-Lada 2110
+2105
+2107
+2108
+2109
+2110
+2112
 Largus
 Niva
 Niva Bronto

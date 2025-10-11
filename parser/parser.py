@@ -373,8 +373,8 @@ def save_csv(items, path="drom_full.csv"):
 
 def main():
     parser = argparse.ArgumentParser(description="drom.ru detailed parser")
-    parser.add_argument("--pages", type=int, default=44300, help="pages to scan")
-    parser.add_argument("--out", type=str, default="drom_full.csv", help="output csv")
+    parser.add_argument("--pages", type=int, default=100, help="pages to scan")
+    parser.add_argument("--out", type=str, default="drom_full_2.csv", help="output csv")
     parser.add_argument("--debug", action="store_true", help="save debug html")
     args = parser.parse_args()
 

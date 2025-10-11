@@ -1,15 +1,15 @@
-Acura EL
-Acura ILX
-Acura Integra
-Acura Legend
-Acura MDX
-Acura MDX Hybrid
-Acura NSX
-Acura RDX
-Acura RDX A‑Spec
-Acura RL
-Acura RLX
-Acura TL
-Acura TLX
-Acura TSX
-Acura ZDX
+EL
+ILX
+Integra
+Legend
+MDX
+MDX Hybrid
+NSX
+RDX
+RDX A‑Spec
+RL
+RLX
+TL
+TLX
+TSX
+ZDX
